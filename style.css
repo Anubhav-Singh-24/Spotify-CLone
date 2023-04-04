@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: antiquewhite;
+    font-family: 'Alkatra', cursive;
+}
+
+nav{
+    color: white;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: black;
+    list-style-type: none;
+}
+
+nav ul li{
+    padding: 10px;
+}
+
+.logo img{
+    width: 50px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+}
+
+.container{
+    min-height: 69vh;
+    background-color: black;
+    color: white;
+    width: 70%;
+    display: flex;
+    margin: 11px auto;
+    border-radius: 10px;
+    padding: 10px;
+    background: url('bg3.webp') no-repeat center/cover;
+}
+
+.bottom{
+    position: sticky;
+    height: 80px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.icons{
+    margin: 14px 0px;
+}
+
+.icons i{
+    padding: 0px 5px;
+    cursor: pointer;
+}
+
+#progressBar{
+    width: 80vw;
+    margin-top: 14px;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 0;
+    width: 30vw;
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 10px;
+}
+
+.timeStamp{
+    margin: 0 3px;
+}
+
+.songInfo{
+    position: absolute;
+    left: 10vw;
+}
+
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
